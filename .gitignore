@@ -3,7 +3,5 @@ Binaries
 DerivedData
 Intermediate
 Saved
-*.VC.opendb
-*.opensdf
-*.sdf
-*.suo
+.vs\Eight_Project\v16\Browse.VC.db
+.vs\Eight_Project\v16\ipch\AutoPCH\badcb84abb72c13a\NETCOMPRESSION.ipch
