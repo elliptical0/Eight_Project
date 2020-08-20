@@ -3,4 +3,7 @@ Binaries
 DerivedData
 Intermediate
 Saved
-Plugins
+*.VC.opendb
+*.opensdf
+*.sdf
+*.suo
