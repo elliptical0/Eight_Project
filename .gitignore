@@ -3,9 +3,5 @@ Binaries
 DerivedData
 Intermediate
 Saved
-<<<<<<< HEAD
-.vs\Eight_Project\v16\Browse.VC.db
-.vs\Eight_Project\v16\ipch\AutoPCH\badcb84abb72c13a\NETCOMPRESSION.ipch
-=======
-Plugins
->>>>>>> parent of 86f6d1b... v0.6.0
+*.VC.db
+*.ipch
