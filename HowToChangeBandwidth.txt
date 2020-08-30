@@ -1,0 +1,14 @@
+DefaultGame.ini
+[/Script/Engine.GameNetworkManager]
+TotalNetBandwidth=120000
+MaxDynamicBandwidth=40000
+MinDynamicBandwidth=1000
+
+DefaultEngine.ini
+[/Script/OnlineSubsystemUtils.IpNetDriver]
+MaxClientRate=40000
+MaxInternetClientRate=40000
+
+[/Script/Engine.Player]
+ConfiguredInternetSpeed=40000
+ConfiguredLanSpeed=40000
