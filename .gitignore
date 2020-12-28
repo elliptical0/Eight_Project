@@ -3,5 +3,6 @@ Binaries
 DerivedData
 Intermediate
 Saved
+Packages
 *.VC.db
 *.ipch
