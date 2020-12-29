@@ -51564,3 +51564,563 @@ Make sure 'DefaultPlayerstate_C' has been compiled for  Get CharacterSelection
 [2020.12.29-06.09.30:486][ 14]AssetCheck: New page: Asset Save: MainMenu
 [2020.12.29-06.09.30:486][ 14]LogContentValidation: Display: Validating World /Game/Levels/MainMenu.MainMenu
 [2020.12.29-06.09.42:461][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.12.29-06.10.55:382][585]LogMainFrame: Selected target: Eight_Project
+[2020.12.29-06.10.55:386][585]LogLauncherProfile: Unable to use promoted target - receipt ../../../../../../Unreal/Eight_Project/Binaries/Win64/Eight_Project.target is not for a promoted target
+[2020.12.29-06.10.56:214][585]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2020.12.29-06.10.56:214][585]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=C:/Unreal/Eight_Project/Eight_Project.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=C:/Unreal/Eight_Project/Eight_Project.uproject -cook -stage -archive -archivedirectory=C:/Unreal/Eight_Project/Packages/0_11_0_Win64 -package -ue4exe="C:\Program Files\UnrealEngine\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -target=Eight_Project -clientconfig=Development -utf8output
+[2020.12.29-06.10.57:488][677]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for C:\Unreal\Eight_Project\Eight_Project.uproject
+[2020.12.29-06.10.58:344][745]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND STARTED **********
+[2020.12.29-06.10.58:370][747]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\UnrealEngine\UE_4.25\Engine\Binaries\DotNET\UnrealBuildTool.exe Eight_Project Win64 Development -Project=C:\Unreal\Eight_Project\Eight_Project.uproject  C:\Unreal\Eight_Project\Eight_Project.uproject -NoUBTMakefiles  -remoteini="C:\Unreal\Eight_Project" -skipdeploy -Manifest=C:\Unreal\Eight_Project\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\Elliptical\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UnrealEngine+UE_4.25\UBT-Eight_Project-Win64-Development.txt"
+[2020.12.29-06.10.59:412][775]UATHelper: Packaging (Windows (64-bit)):   Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal\Eight_Project).
+[2020.12.29-06.11.11:509][811]UATHelper: Packaging (Windows (64-bit)):   Parsing headers for Eight_Project
+[2020.12.29-06.11.11:510][811]UATHelper: Packaging (Windows (64-bit)):     Running UnrealHeaderTool "C:\Unreal\Eight_Project\Eight_Project.uproject" "C:\Unreal\Eight_Project\Intermediate\Build\Win64\Eight_Project\Development\Eight_Project.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Elliptical\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UnrealEngine+UE_4.25\UHT-Eight_Project-Win64-Development.txt" -installed
+[2020.12.29-06.11.34:132][878]UATHelper: Packaging (Windows (64-bit)):   Reflection code generated for Eight_Project in 22.6718158 seconds
+[2020.12.29-06.11.36:483][885]UATHelper: Packaging (Windows (64-bit)):   Writing manifest to C:\Unreal\Eight_Project\Intermediate\Build\Manifest.xml
+[2020.12.29-06.11.36:483][885]UATHelper: Packaging (Windows (64-bit)):   Building Eight_Project...
+[2020.12.29-06.11.36:483][885]UATHelper: Packaging (Windows (64-bit)):   Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.12.29-06.11.36:483][885]UATHelper: Packaging (Windows (64-bit)):   Building 13 actions with 8 processes...
+[2020.12.29-06.11.36:814][886]UATHelper: Packaging (Windows (64-bit)):     [1/13] Default.rc2
+[2020.12.29-06.12.07:501][977]UATHelper: Packaging (Windows (64-bit)):     [2/13] SharedPCH.Engine.ShadowErrors.cpp
+[2020.12.29-06.12.08:509][980]UATHelper: Packaging (Windows (64-bit)):     [3/13] NetCompression.cpp
+[2020.12.29-06.12.08:510][980]UATHelper: Packaging (Windows (64-bit)):     [4/13] Eight_Project.cpp
+[2020.12.29-06.12.08:844][981]UATHelper: Packaging (Windows (64-bit)):     [5/13] Eight_Project.init.gen.cpp
+[2020.12.29-06.12.09:176][982]UATHelper: Packaging (Windows (64-bit)):     [6/13] NetCompression.gen.cpp
+[2020.12.29-06.12.14:546][998]UATHelper: Packaging (Windows (64-bit)):     [7/13] Module.AdvancedSteamSessions.cpp
+[2020.12.29-06.12.14:901][999]UATHelper: Packaging (Windows (64-bit)):     [8/13] Module.AdvancedSteamSessions.gen.cpp
+[2020.12.29-06.12.15:212][  0]UATHelper: Packaging (Windows (64-bit)):     [9/13] Module.AdvancedSessions.gen.1_of_2.cpp
+[2020.12.29-06.12.15:546][  1]UATHelper: Packaging (Windows (64-bit)):     [10/13] Module.AdvancedSessions.gen.2_of_2.cpp
+[2020.12.29-06.12.17:216][  6]UATHelper: Packaging (Windows (64-bit)):     [11/13] Module.AdvancedSessions.cpp
+[2020.12.29-06.12.29:659][ 43]UATHelper: Packaging (Windows (64-bit)):     [12/13] Eight_Project.exe
+[2020.12.29-06.12.29:659][ 43]UATHelper: Packaging (Windows (64-bit)):        Creating library C:\Unreal\Eight_Project\Binaries\Win64\Eight_Project.lib and object C:\Unreal\Eight_Project\Binaries\Win64\Eight_Project.exp
+[2020.12.29-06.12.29:659][ 43]UATHelper: Packaging (Windows (64-bit)):     [13/13] Eight_Project.target
+[2020.12.29-06.12.29:659][ 43]UATHelper: Packaging (Windows (64-bit)):   Total time in Parallel executor: 53.29 seconds
+[2020.12.29-06.12.29:996][ 44]UATHelper: Packaging (Windows (64-bit)):   Total execution time: 91.24 seconds
+[2020.12.29-06.12.29:996][ 44]UATHelper: Packaging (Windows (64-bit)): Took 91.3490661s to run UnrealBuildTool.exe, ExitCode=0
+[2020.12.29-06.12.29:996][ 44]UATHelper: Packaging (Windows (64-bit)): ********** BUILD COMMAND COMPLETED **********
+[2020.12.29-06.12.29:996][ 44]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2020.12.29-06.12.29:996][ 44]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project C:\Unreal\Eight_Project\Eight_Project.uproject
+[2020.12.29-06.12.29:996][ 44]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is C:\Program Files\UnrealEngine\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.12.29-01.12.29.txt
+[2020.12.29-06.12.29:996][ 44]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\UnrealEngine\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe C:\Unreal\Eight_Project\Eight_Project.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog="C:\Program Files\UnrealEngine\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.12.29-01.12.29.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2020.12.29-06.12.30:323][ 45]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: Eight_Project
+[2020.12.29-06.12.32:678][ 52]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17047486464 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.29-06.12.33:018][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.29-06.12.33:018][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.29-06.12.33:018][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.29-06.12.33:019][ 53]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2020.12.29-06.12.33:355][ 54]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.29-06.12.34:032][ 56]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.29-06.12.34:706][ 58]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.29-06.12.34:706][ 58]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Elliptical/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.29-06.12.34:706][ 58]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.29-06.12.36:060][ 62]UATHelper: Packaging (Windows (64-bit)):   LogSteamShared: Display: Loading Steam SDK 1.47
+[2020.12.29-06.12.37:070][ 65]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.29-06.12.37:070][ 65]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.29-06.12.37:738][ 67]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.29-06.12.37:738][ 67]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2020.12.29-06.12.37:738][ 67]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2020.12.29-06.12.38:094][ 68]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2020.12.29-06.12.38:094][ 68]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Inisetting is different for Windows Engine /Script/EngineSettings.GameMapsSettings GameInstanceClass 0, value /Game/Gamestate/DefaultGameinstance.DefaultGameInstance_C != /Script/Engine.GameInstance invalidating cook
+[2020.12.29-06.12.38:094][ 68]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: To avoid this add blacklist setting to DefaultEditor.ini [CookSettings] Windows.Engine:/Script/EngineSettings.GameMapsSettings
+[2020.12.29-06.12.38:094][ 68]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2020.12.29-06.12.38:425][ 69]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.161 seconds for platforms WindowsNoEditor
+[2020.12.29-06.24.37:349][286]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 516 Total 516
+[2020.12.29-06.24.37:773][315]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 50 Packages Remain 515 Total 565
+[2020.12.29-06.24.37:839][321]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.37:839][321]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.37:839][321]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.37:839][321]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.37:839][321]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.37:839][321]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.37:839][321]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.37:839][321]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.38:963][435]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.38:963][435]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.38:967][436]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.38:967][436]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.38:967][436]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.38:967][436]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.38:967][436]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.38:967][436]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.24.38:995][439]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material RadialMaterial, compiling.
+[2020.12.29-06.24.39:037][443]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material ShockwaveMaterial, compiling.
+[2020.12.29-06.24.39:060][445]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material RadialMaterial, compiling.
+[2020.12.29-06.24.39:086][447]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material NM, compiling.
+[2020.12.29-06.24.39:113][449]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material PeacockSecondaryMaterial, compiling.
+[2020.12.29-06.24.39:304][462]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material ShockwaveMaterial, compiling.
+[2020.12.29-06.24.39:472][465]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material LinearMeterMaterial, compiling.
+[2020.12.29-06.24.39:472][465]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material RadialMaterial, compiling.
+[2020.12.29-06.24.39:472][465]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material DM, compiling.
+[2020.12.29-06.24.39:688][468]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material NM, compiling.
+[2020.12.29-06.24.39:688][468]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 100 Packages Remain 513 Total 613
+[2020.12.29-06.24.39:907][475]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 150 Packages Remain 512 Total 662
+[2020.12.29-06.24.40:407][476]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material ConicSweepMaterial, compiling.
+[2020.12.29-06.24.40:408][476]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 200 Packages Remain 512 Total 712
+[2020.12.29-06.24.40:408][476]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material PeacockSecondaryMaterial, compiling.
+[2020.12.29-06.24.40:535][477]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material TM, compiling.
+[2020.12.29-06.24.40:535][477]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material CockatielSecondaryMaterial, compiling.
+[2020.12.29-06.24.46:468][828]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 250 Packages Remain 511 Total 761
+[2020.12.29-06.25.46:018][509]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 280 Packages Remain 360 Total 640
+[2020.12.29-06.25.46:110][517]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 290 Packages Remain 359 Total 649
+[2020.12.29-06.25.46:143][519]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 293 Packages Remain 358 Total 651
+[2020.12.29-06.25.46:167][521]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 297 Packages Remain 357 Total 654
+[2020.12.29-06.25.46:182][522]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material UM, compiling.
+[2020.12.29-06.25.48:126][683]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 299 Packages Remain 356 Total 655
+[2020.12.29-06.25.48:126][683]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 300 Packages Remain 355 Total 655
+[2020.12.29-06.25.48:126][683]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 301 Packages Remain 354 Total 655
+[2020.12.29-06.25.48:141][684]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 302 Packages Remain 352 Total 654
+[2020.12.29-06.25.48:252][695]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 308 Packages Remain 346 Total 654
+[2020.12.29-06.25.48:261][696]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material PlayerIndicatorMaterial, compiling.
+[2020.12.29-06.25.50:180][825]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 313 Packages Remain 345 Total 658
+[2020.12.29-06.25.50:314][838]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 317 Packages Remain 342 Total 659
+[2020.12.29-06.25.50:314][838]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 317 Packages Remain 338 Total 655
+[2020.12.29-06.25.50:343][840]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: RadialMeterGradient_LowRes (AutoDXT, 256X256)
+[2020.12.29-06.25.50:960][884]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: RadialMeterGradient (AutoDXT, 2048X2048)
+[2020.12.29-06.25.50:960][884]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 321 Packages Remain 337 Total 658
+[2020.12.29-06.25.51:148][902]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material CM, compiling.
+[2020.12.29-06.25.51:334][919]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material OutlineMaterial, compiling.
+[2020.12.29-06.25.51:462][921]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 329 Packages Remain 342 Total 671
+[2020.12.29-06.25.51:995][924]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 379 Packages Remain 341 Total 720
+[2020.12.29-06.25.52:586][945]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling.
+[2020.12.29-06.25.53:463][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2020.12.29-06.25.53:463][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2020.12.29-06.25.53:463][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2020.12.29-06.25.53:463][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2020.12.29-06.25.53:463][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2020.12.29-06.25.53:463][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X256)
+[2020.12.29-06.25.53:463][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2020.12.29-06.25.53:463][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 64X32)
+[2020.12.29-06.25.53:464][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2020.12.29-06.25.53:464][946]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling.
+[2020.12.29-06.25.53:464][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2020.12.29-06.25.53:464][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2020.12.29-06.25.53:464][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2020.12.29-06.25.53:464][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2020.12.29-06.25.53:464][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2020.12.29-06.25.53:464][946]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2020.12.29-06.25.56:115][976]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2020.12.29-06.25.56:115][976]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 429 Packages Remain 320 Total 749
+[2020.12.29-06.25.56:115][976]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.25.56:115][976]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.25.56:115][976]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.25.56:116][976]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.25.56:116][976]UATHelper: Packaging (Windows (64-bit)):   LogReflectionCaptureComponent: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.25.56:116][976]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material CM, compiling.
+[2020.12.29-06.25.56:116][976]PackagingResults: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.25.56:116][976]PackagingResults: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.25.56:116][976]PackagingResults: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.25.56:116][976]PackagingResults: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.25.56:116][976]PackagingResults: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.27.02:107][111]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 452 Packages Remain 318 Total 770
+[2020.12.29-06.27.02:165][113]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 453 Packages Remain 309 Total 762
+[2020.12.29-06.27.02:165][113]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 454 Packages Remain 308 Total 762
+[2020.12.29-06.27.02:165][113]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 455 Packages Remain 307 Total 762
+[2020.12.29-06.27.02:165][113]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 456 Packages Remain 306 Total 762
+[2020.12.29-06.27.02:165][113]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 457 Packages Remain 303 Total 760
+[2020.12.29-06.27.02:177][114]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 459 Packages Remain 302 Total 761
+[2020.12.29-06.27.02:177][114]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 460 Packages Remain 301 Total 761
+[2020.12.29-06.27.02:187][115]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 461 Packages Remain 300 Total 761
+[2020.12.29-06.27.02:187][115]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 462 Packages Remain 292 Total 754
+[2020.12.29-06.27.02:199][116]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 463 Packages Remain 287 Total 750
+[2020.12.29-06.27.02:199][116]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material DropShadow, compiling.
+[2020.12.29-06.27.02:220][118]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 463 Packages Remain 279 Total 742
+[2020.12.29-06.27.02:231][119]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 463 Packages Remain 276 Total 739
+[2020.12.29-06.27.02:297][122]UATHelper: Packaging (Windows (64-bit)):   LogTexture: Display: Building textures: BW_CelBands_11 (BGRA8, 1X128)
+[2020.12.29-06.27.07:713][503]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 470 Packages Remain 269 Total 739
+[2020.12.29-06.27.07:713][503]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:713][503]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:713][503]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:713][503]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:713][503]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:713][503]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:713][503]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:714][503]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:719][504]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:719][504]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:719][504]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:719][504]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:719][504]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 471 Packages Remain 268 Total 739
+[2020.12.29-06.27.07:719][504]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:719][504]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:719][504]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:719][504]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.07:730][505]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 472 Packages Remain 249 Total 721
+[2020.12.29-06.27.07:730][505]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 473 Packages Remain 248 Total 721
+[2020.12.29-06.27.07:742][506]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 474 Packages Remain 244 Total 718
+[2020.12.29-06.27.07:742][506]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 475 Packages Remain 243 Total 718
+[2020.12.29-06.27.07:754][507]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 476 Packages Remain 238 Total 714
+[2020.12.29-06.27.07:766][508]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 477 Packages Remain 233 Total 710
+[2020.12.29-06.27.07:766][508]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material LinearIndicatorMaterial, compiling.
+[2020.12.29-06.27.07:772][508]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:772][508]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:772][508]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:772][508]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:777][509]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:777][509]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:777][509]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:777][509]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:777][509]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:778][509]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:778][509]UATHelper: Packaging (Windows (64-bit)):   LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:778][509]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:778][509]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:778][509]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:778][509]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.07:778][509]PackagingResults: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.09:856][657]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 479 Packages Remain 229 Total 708
+[2020.12.29-06.27.09:866][658]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 480 Packages Remain 225 Total 705
+[2020.12.29-06.27.09:866][658]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 481 Packages Remain 221 Total 702
+[2020.12.29-06.27.09:877][659]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 482 Packages Remain 220 Total 702
+[2020.12.29-06.27.09:887][660]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 483 Packages Remain 219 Total 702
+[2020.12.29-06.27.09:897][661]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 484 Packages Remain 187 Total 671
+[2020.12.29-06.27.09:897][661]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 485 Packages Remain 170 Total 655
+[2020.12.29-06.27.09:897][661]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 486 Packages Remain 164 Total 650
+[2020.12.29-06.27.09:897][661]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 487 Packages Remain 156 Total 643
+[2020.12.29-06.27.09:897][661]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 488 Packages Remain 130 Total 618
+[2020.12.29-06.27.09:909][662]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 489 Packages Remain 129 Total 618
+[2020.12.29-06.27.09:920][663]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 491 Packages Remain 127 Total 618
+[2020.12.29-06.27.09:953][666]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 492 Packages Remain 126 Total 618
+[2020.12.29-06.27.09:953][666]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 493 Packages Remain 125 Total 618
+[2020.12.29-06.27.09:965][667]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 494 Packages Remain 123 Total 617
+[2020.12.29-06.27.09:965][667]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 495 Packages Remain 122 Total 617
+[2020.12.29-06.27.09:986][668]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 496 Packages Remain 102 Total 598
+[2020.12.29-06.27.10:054][672]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 497 Packages Remain 101 Total 598
+[2020.12.29-06.27.10:109][677]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 498 Packages Remain 99 Total 597
+[2020.12.29-06.27.10:179][682]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 499 Packages Remain 98 Total 597
+[2020.12.29-06.27.10:293][693]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2020.12.29-06.27.10:293][693]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2020.12.29-06.27.10:293][693]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2020.12.29-06.27.10:293][693]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2020.12.29-06.27.10:293][693]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2020.12.29-06.27.10:293][693]UATHelper: Packaging (Windows (64-bit)):   LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2020.12.29-06.27.10:293][693]PackagingResults: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2020.12.29-06.27.10:293][693]PackagingResults: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2020.12.29-06.27.10:293][693]PackagingResults: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2020.12.29-06.27.10:293][693]PackagingResults: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2020.12.29-06.27.10:293][693]PackagingResults: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2020.12.29-06.27.10:293][693]PackagingResults: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2020.12.29-06.27.11:172][749]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 514 Packages Remain 96 Total 610
+[2020.12.29-06.27.11:260][755]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 515 Packages Remain 95 Total 610
+[2020.12.29-06.27.11:296][758]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 516 Packages Remain 94 Total 610
+[2020.12.29-06.27.11:340][761]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 517 Packages Remain 93 Total 610
+[2020.12.29-06.27.11:383][765]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 518 Packages Remain 92 Total 610
+[2020.12.29-06.27.11:576][779]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 519 Packages Remain 91 Total 610
+[2020.12.29-06.27.11:745][791]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 520 Packages Remain 90 Total 610
+[2020.12.29-06.27.11:867][797]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 521 Packages Remain 88 Total 609
+[2020.12.29-06.27.11:946][803]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 522 Packages Remain 87 Total 609
+[2020.12.29-06.27.12:005][808]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 523 Packages Remain 86 Total 609
+[2020.12.29-06.27.12:204][822]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 524 Packages Remain 85 Total 609
+[2020.12.29-06.27.12:361][833]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 525 Packages Remain 84 Total 609
+[2020.12.29-06.27.12:645][853]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 526 Packages Remain 83 Total 609
+[2020.12.29-06.27.12:658][854]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 527 Packages Remain 82 Total 609
+[2020.12.29-06.27.12:682][856]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 528 Packages Remain 81 Total 609
+[2020.12.29-06.27.12:780][865]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 529 Packages Remain 80 Total 609
+[2020.12.29-06.27.12:839][869]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 530 Packages Remain 79 Total 609
+[2020.12.29-06.27.12:879][872]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 531 Packages Remain 72 Total 603
+[2020.12.29-06.27.13:077][885]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 532 Packages Remain 68 Total 600
+[2020.12.29-06.27.13:268][900]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 533 Packages Remain 67 Total 600
+[2020.12.29-06.27.13:314][904]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 534 Packages Remain 63 Total 597
+[2020.12.29-06.27.13:366][908]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 535 Packages Remain 62 Total 597
+[2020.12.29-06.27.13:414][911]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 536 Packages Remain 60 Total 596
+[2020.12.29-06.27.13:433][912]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 537 Packages Remain 59 Total 596
+[2020.12.29-06.27.13:540][919]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 538 Packages Remain 57 Total 595
+[2020.12.29-06.27.13:639][926]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 539 Packages Remain 56 Total 595
+[2020.12.29-06.27.13:744][933]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 540 Packages Remain 55 Total 595
+[2020.12.29-06.27.13:842][942]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 541 Packages Remain 54 Total 595
+[2020.12.29-06.27.13:931][947]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 542 Packages Remain 53 Total 595
+[2020.12.29-06.27.14:040][954]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 543 Packages Remain 52 Total 595
+[2020.12.29-06.27.14:102][958]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 544 Packages Remain 50 Total 594
+[2020.12.29-06.27.14:185][966]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 545 Packages Remain 46 Total 591
+[2020.12.29-06.27.14:267][972]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 546 Packages Remain 44 Total 590
+[2020.12.29-06.27.14:305][975]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 547 Packages Remain 43 Total 590
+[2020.12.29-06.27.14:332][977]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 548 Packages Remain 38 Total 586
+[2020.12.29-06.27.14:432][985]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 549 Packages Remain 37 Total 586
+[2020.12.29-06.27.14:527][991]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 550 Packages Remain 0 Total 550
+[2020.12.29-06.27.14:527][991]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2020.12.29-06.27.14:537][992]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Saving BulkData manifest(s)...
+[2020.12.29-06.27.14:547][993]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done saving BulkData manifest(s)
+[2020.12.29-06.27.14:547][993]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2020.12.29-06.27.14:547][993]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2020.12.29-06.27.14:547][993]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2020.12.29-06.27.14:587][997]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2020.12.29-06.27.14:587][997]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Code Stats: PCD3D_SM5
+[2020.12.29-06.27.14:587][997]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2020.12.29-06.27.14:587][997]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders: 3750, Total Shaders: 14976
+[2020.12.29-06.27.14:587][997]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders Size: 8.01mb, Total Shader Size: 8.01mb
+[2020.12.29-06.27.14:587][997]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2020.12.29-06.27.14:666][  5]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry.
+[2020.12.29-06.27.14:686][  7]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 529, size is 245.55kb
+[2020.12.29-06.27.14:686][  7]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 157.146003s total time 877.114807
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 1031MB Peak Used physical 1016MB
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     StartCookByTheBookTime: 719.772s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CleanSandbox: 0.161s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ProcessingAccessedStrings: 0.010s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CollectFilesToCook: 0.387s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         CookModificationDelegate: 0.000s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         GeneratePackageNames: 0.001s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       GenerateLongPackageName: 0.002s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 157.123s (120)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackage: 4.043s (120)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.084s (120)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.000s (120)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 152.983s (96)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.019s (567)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextNextPackage: 0.860s (551)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 152.048s (550)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           LoadPackage: 0.001s (550)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 152.029s (550)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.012s (550)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.004s (529)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.011s (550)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         EnqueueUnsavedPackages: 0.000s (8)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     FinalizePackageStore: 0.006s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.004s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.060s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.005s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.047s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.015s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.004s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.025s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.003s (1)
+[2020.12.29-06.27.14:696][  8]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2020.12.29-06.27.14:705][  9]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.007677s to verify the EDL loading graph.
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=853.489559
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=4084.789494
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=2.480270
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=3950
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=715.453062
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=2715
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=1217
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=18
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=243
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=4.557529
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=550
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=151.931096
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=150.357604
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.228439
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000318
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.003352
+[2020.12.29-06.27.14:729][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.007704
+[2020.12.29-06.27.14:730][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000891
+[2020.12.29-06.27.14:730][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2020.12.29-06.27.14:730][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.527544
+[2020.12.29-06.27.14:730][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.297727
+[2020.12.29-06.27.14:730][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.009465
+[2020.12.29-06.27.14:730][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2020.12.29-06.27.14:730][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=75.819690
+[2020.12.29-06.27.14:730][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2020.12.29-06.27.14:730][ 11]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: UnversionedProperties
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedStructs=0
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedMB=0
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.12.29-06.27.14:740][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=884.663753
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=7.514039
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=877.134237
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=719.772551
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000401
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=157.317996
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=4.046586
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=152.047744
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=0.961162
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.014170
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.001934
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.010333
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000371
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000006
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =       498
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =       916
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  0.543668
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.149563
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.394105
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.456332
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =       404
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =       404
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  1.000000
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2020.12.29-06.27.14:741][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                                0.60                   0.60            19         52.81
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.39                   0.39             1          0.01
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                  0.38                   0.38            23          6.43
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SkeletalMesh                                    0.12                   0.12             1          3.45
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                      0.07                   0.07             6          1.47
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                             0.06                   0.00             0         19.47
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.05                   0.05            14          0.71
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    0.01                   0.01             6          0.09
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          0.02
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Warning/Error Summary (Unique only)
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: -----------------------------------
+[2020.12.29-06.27.14:742][ 12]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Meshes/Cube_Better.uasset' failed to load '/Game/Colors/EnvironmentMaterial': Can't find file.
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogReflectionCaptureComponent: Warning: /Game/AnimStarterPack/Showcase contains a legacy UReflectionCaptureComponent and is being non-deterministically cooked - please resave the asset and recook.
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Gamestate/DefaultGamestateBase.uasset' failed to load '/Game/Gamestate/DefaultGamestate': Can't find file.
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogUObjectGlobals: Warning: While loading '../../../../../../Unreal/Eight_Project/Content/Effects/LinearIndicator.uasset' failed to load '/Game/UI/LinearIndicatorMaterial': Can't find file.
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Success - 0 error(s), 41 warning(s)
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   
+[2020.12.29-06.27.14:751][ 13]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  877.18 seconds
+[2020.12.29-06.27.15:256][ 30]UATHelper: Packaging (Windows (64-bit)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.12.29-06.27.16:579][ 34]UATHelper: Packaging (Windows (64-bit)): Took 886.5442186s to run UE4Editor-Cmd.exe, ExitCode=0
+[2020.12.29-06.27.16:579][ 34]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND COMPLETED **********
+[2020.12.29-06.27.16:579][ 34]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND STARTED **********
+[2020.12.29-06.27.16:579][ 34]UATHelper: Packaging (Windows (64-bit)): Creating Staging Manifest...
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\BaseEditor.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\BaseEditorKeyBindings.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\BaseEditorSettings.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\BaseLightmass.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\BasePakFileRules.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\Category.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\Editor.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\EditorTutorials.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\Engine.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\Keywords.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\PortableObjectExport.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\PortableObjectImport.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\PropertyNames.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\RepairData.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\ToolTips.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Program Files\UnrealEngine\UE_4.25\Engine\Config\Localization\WordCount.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Excluding config file C:\Unreal\Eight_Project\Config\DefaultEditor.ini
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Cleaning Stage Directory: C:\Unreal\Eight_Project\Saved\StagedBuilds\WindowsNoEditor
+[2020.12.29-06.27.16:912][ 35]UATHelper: Packaging (Windows (64-bit)): Creating pak using staging manifest.
+[2020.12.29-06.27.17:247][ 36]UATHelper: Packaging (Windows (64-bit)): Executing 1 UnrealPak command...
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (1/1)
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)): Output from: C:\Unreal\Eight_Project\Eight_Project.uproject C:\Unreal\Eight_Project\Saved\StagedBuilds\WindowsNoEditor\Eight_Project\Content\Paks\Eight_Project-WindowsNoEditor.pak -create="C:\Users\Elliptical\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UnrealEngine+UE_4.25\PakList_Eight_Project-WindowsNoEditor.txt" -cryptokeys=C:\Unreal\Eight_Project\Saved\Cooked\WindowsNoEditor\Eight_Project\Metadata\Crypto.json -order=C:\Unreal\Eight_Project\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log -patchpaddingalign=2048 -platform=Windows -compressionformats=  -multiprocess -abslog="C:\Users\Elliptical\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UnrealEngine+UE_4.25\UnrealPak-Eight_Project-WindowsNoEditor-2020.12.29-01.27.17.txt"
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogCompression: Display: FCompression::GetCompressionFormat - Unable to find a module or plugin for compression format -multiprocess
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading response file C:\Users\Elliptical\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+UnrealEngine+UE_4.25\PakList_Eight_Project-WindowsNoEditor.txt
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2175 entries to add to pak file.
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading pak order file C:\Unreal\Eight_Project\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Finished loading pak order file C:\Unreal\Eight_Project\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collecting files to add to pak file...
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collected 2175 files in 0.01s.
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Creating pak C:\Unreal\Eight_Project\Saved\StagedBuilds\WindowsNoEditor\Eight_Project\Content\Paks\Eight_Project-WindowsNoEditor.pak.
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: DISABLING pak file index freezing (all must be true: HasPlatformInfo? true - TargetIs64Bit? true - NoRuntimeUnloading? true - Unencrypted? true, 'Windows' != 'Windows')
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 2175 files, 102861066 bytes total, time 2.64s.
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Encryption - DISABLED
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Unreal pak executed in 2.717783 seconds
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)): UnrealPak terminated with exit code 0
+[2020.12.29-06.27.21:919][ 50]UATHelper: Packaging (Windows (64-bit)): Copying NonUFSFiles to staging directory: C:\Unreal\Eight_Project\Saved\StagedBuilds\WindowsNoEditor
+[2020.12.29-06.27.22:585][ 52]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND COMPLETED **********
+[2020.12.29-06.27.22:585][ 52]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND STARTED **********
+[2020.12.29-06.27.22:585][ 52]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND COMPLETED **********
+[2020.12.29-06.27.22:585][ 52]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND STARTED **********
+[2020.12.29-06.27.22:585][ 52]UATHelper: Packaging (Windows (64-bit)): Archiving to C:/Unreal/Eight_Project/Packages/0_11_0_Win64
+[2020.12.29-06.27.24:255][ 57]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND COMPLETED **********
+[2020.12.29-06.27.24:255][ 57]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
+[2020.12.29-06.27.24:255][ 57]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
+[2020.12.29-06.28.24:378][421]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.29-06.28.24:746][422]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.12.29-19.03.41:708][547]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu/JoinMenu.JoinMenu
+[2020.12.29-19.03.48:437][903]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Menu/HostMenu.HostMenu
+[2020.12.29-19.03.59:433][580]BlueprintLog: New page: Compile HostMenu
+[2020.12.29-19.03.59:720][580]LogUObjectHash: Compacting FUObjectHashTables data took   8.89ms
+[2020.12.29-19.04.00:008][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu/HostMenu" FILE="../../../../../../Unreal/Eight_Project/Content/UI/Menu/HostMenu.uasset" SILENT=true
+[2020.12.29-19.04.00:234][580]LogSavePackage: Moving '../../../../../../Unreal/Eight_Project/Saved/HostMenu1BC797A54F9F7652752C108AC4CB2F7F.tmp' to '../../../../../../Unreal/Eight_Project/Content/UI/Menu/HostMenu.uasset'
+[2020.12.29-19.04.00:259][580]AssetCheck: New page: Asset Save: HostMenu
+[2020.12.29-19.04.00:259][580]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Menu/HostMenu.HostMenu
+[2020.12.29-19.04.43:097][362]BlueprintLog: New page: Compile HostMenu
+[2020.12.29-19.04.43:214][362]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2020.12.29-19.04.43:440][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu/HostMenu" FILE="../../../../../../Unreal/Eight_Project/Content/UI/Menu/HostMenu.uasset" SILENT=true
+[2020.12.29-19.04.43:583][362]LogSavePackage: Moving '../../../../../../Unreal/Eight_Project/Saved/HostMenuA43D8DD148FBC46BD14ED398FFA2165E.tmp' to '../../../../../../Unreal/Eight_Project/Content/UI/Menu/HostMenu.uasset'
+[2020.12.29-19.04.43:602][362]AssetCheck: New page: Asset Save: HostMenu
+[2020.12.29-19.04.43:602][362]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Menu/HostMenu.HostMenu
+[2020.12.29-19.04.47:198][575]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2020.12.29-19.04.47:198][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.29-19.04.47:247][575]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2020.12.29-19.04.47:247][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.29-19.04.49:035][678]LogSlate: Window 'JoinMenu' being destroyed
+[2020.12.29-19.04.49:058][678]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2020.12.29-19.04.49:058][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.29-19.04.49:097][678]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2020.12.29-19.04.49:097][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.29-19.04.50:224][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Unreal/Eight_Project/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.12.29-19.04.50:254][771]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.12.29-19.04.50:399][771]LogSavePackage: Moving '../../../../../../Unreal/Eight_Project/Saved/MainMenu6A3006BF4C60ADEE24F764BF3C841408.tmp' to '../../../../../../Unreal/Eight_Project/Content/Levels/MainMenu.umap'
+[2020.12.29-19.04.50:491][771]AssetCheck: New page: Asset Save: MainMenu
+[2020.12.29-19.04.50:491][771]LogContentValidation: Display: Validating World /Game/Levels/MainMenu.MainMenu
+[2020.12.29-19.04.58:839][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../Unreal/Eight_Project/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.12.29-19.04.58:864][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.12.29-19.04.58:998][669]LogSavePackage: Moving '../../../../../../Unreal/Eight_Project/Saved/MainMenu6766D6F44C2AFDCBBB053EA2DA0F59C4.tmp' to '../../../../../../Unreal/Eight_Project/Content/Levels/MainMenu.umap'
+[2020.12.29-19.04.59:101][669]AssetCheck: New page: Asset Save: MainMenu
+[2020.12.29-19.04.59:101][669]LogContentValidation: Display: Validating World /Game/Levels/MainMenu.MainMenu
