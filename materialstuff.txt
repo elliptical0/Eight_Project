@@ -1,0 +1,9 @@
+Eyeball: 0.0 1.0
+Teeth: 0.0 1.0
+Shirt: 0.75 0.25
+Skin: 0.75 0.333
+Mouth: 0.5 0.5
+Eyeliner: 0.75 0.5
+Eye: 0.25 1.0
+Lips: 0.0 1.0
+Hair: 0.25 0.75
