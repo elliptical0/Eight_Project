@@ -1,4 +1,5 @@
 Playable Area: 1800 x 1000 (-900, +900; -500, +500)
+Location vector is offset by +650 X
 Power is center, Wide is left, Piercing is right
 Centers of some subdivisions:
 Halves: -450, 450
