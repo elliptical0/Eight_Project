@@ -3,11 +3,24 @@
 
 #include "SlateNavigationConfig.h"
 
-void USlateNavigationConfig::SetWidgetNavigation(bool enabled) {
-	auto& SlateApplication = FSlateApplication::Get();
-	auto& NavigationConfig = *SlateApplication.GetNavigationConfig();
+void USlateNavigationConfig::SetNavigationConfigToNavigationConfigKeybind() {
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Creating FNavigationConfigKeybind!"));
+	FSlateApplication& SlateApplication = FSlateApplication::Get();
+	TSharedRef<FNavigationConfigKeybind> NewNavigationConfigKeybind(new FNavigationConfigKeybind());
+	SlateApplication.SetNavigationConfig(NewNavigationConfigKeybind);
+}
 
-	NavigationConfig.bAnalogNavigation = enabled;
-	NavigationConfig.bKeyNavigation = enabled;
-	NavigationConfig.bTabNavigation = enabled;
+void USlateNavigationConfig::SetWidgetNavigation(bool enabled) {
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("SetWidgetNavigation!"));
+	FSlateApplication& SlateApplication = FSlateApplication::Get();
+	TSharedRef<FNavigationConfig> NavigationConfig = SlateApplication.GetNavigationConfig();
+
+	TSharedPtr<FNavigationConfigKeybind> NavigationConfigKeybind = StaticCastSharedRef<FNavigationConfigKeybind>(NavigationConfig);
+	if (!NavigationConfigKeybind.IsValid()) {
+		SetNavigationConfigToNavigationConfigKeybind();
+	}
+
+	NavigationConfigKeybind->bAnalogNavigation = enabled;
+	NavigationConfigKeybind->bKeyNavigation = enabled;
+	NavigationConfigKeybind->bTabNavigation = false; // always disabled :>
 }
