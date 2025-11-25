@@ -27,6 +27,14 @@
 		{
 			"Name": "ReplicationGraph",
 			"Enabled": true
+		},
+		{
+			"Name": "LibBulletML",
+			"Enabled": true
+		},
+		{
+			"Name": "LibBulletMLPlugin",
+			"Enabled": false
 		}
 	]
 }

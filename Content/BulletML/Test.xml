@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!DOCTYPE bulletml SYSTEM "bulletmlx.dtd">
+
+<bulletml type="vertical">
+    <action label="top">
+        <fire>
+            <direction type="absolute">180</direction>
+            <bulletRef label="basic" />
+        </fire>
+    </action>
+    <bullet label="basic">
+        <speed>1</speed>
+    </bullet>
+</bulletml>

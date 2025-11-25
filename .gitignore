@@ -1,3 +1,4 @@
+.vscode
 Assets
 Build
 Binaries
@@ -8,3 +9,4 @@ Packages
 Releases
 *.VC.db
 *.ipch
+*.code-workspace

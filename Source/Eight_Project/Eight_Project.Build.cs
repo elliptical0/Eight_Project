@@ -12,7 +12,8 @@ public class Eight_Project : ModuleRules
             "Core", 
             "CoreUObject", 
             "Engine", 
-            "InputCore"
+            "InputCore",
+			"LibBulletML"
         });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
